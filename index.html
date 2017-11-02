@@ -1,9 +1,82 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Daniel Sullivan</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        
         <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+        <title>Daniel Sullivan</title>
+    
     </head>
     <body>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand header-name" href="index.html">Daniel Sullivan</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Begin page content -->
+        <div class="container">
+
+            <!-- Blank Row for spacing between header and body content -->
+            <div class="row">&nbsp;</div>
+
+            <!-- Row containing Left Panel (About Me/Portfolio/Contact) 
+                and Right Panel (Connect with me) -->
+            <div class="row">
+
+                <!-- The LEFT panel -->
+                <div class="col-md-8 bottom-padding" id="main-text-panel">
+                    <!-- First Row within About Me column is for the title -->
+                    <div class="row">
+                        <h1 class="contenttitle">About Me</h1>
+                    </div>
+
+                    <!-- Second row is for the grey separator -->
+                    <div class="row">
+                        <div class="divhrdark"></div>
+                    </div>
+
+                    <!-- Last row is for the image and text content -->
+                    <div class="row">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ipsam deleniti architecto? Architecto ad cupiditate id autem amet excepturi vero non repellat tempora! Tempore cum a libero dolore praesentium dolores.</p>
+                    </div>
+                </div>
+
+                <!-- The RIGHT (Connect With Me) panel -->
+                <div class="col-md-3 col-md-offset-1" id="connectwithme">
+                    <h2 class="connecttitle">Connect With Me</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted footer-text">© Copyright 2017 Daniel Sullivan</p>
+            </div>
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </body>
 </html>
