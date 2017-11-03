@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        
         <link rel="stylesheet" type="text/css" href="assets/style.css">
@@ -9,7 +10,8 @@
         <title>Daniel Sullivan</title>
     
     </head>
-    <body>
+
+    <body class="body-container">
 
         <!-- Navigation Bar -->
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -21,7 +23,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand header-name" href="index.html">Daniel Sullivan</a>
+                    <a class="navbar-brand header-name" id="name" href="index.html">Daniel Sullivan</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
@@ -36,7 +38,8 @@
         <!-- Begin page content -->
         <div class="container">
 
-            <!-- Blank Row for spacing between header and body content -->
+            <!-- Two Blank Rows for spacing between header and body content -->
+            <div class="row">&nbsp;</div>
             <div class="row">&nbsp;</div>
 
             <!-- Row containing Left Panel (About Me/Portfolio/Contact) 
@@ -75,15 +78,22 @@
             </div>
         </div>
 
+        <!-- Two blank rows to add space between the content and the footer in small viewports -->
+        <div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>
+
         <!-- Footer -->
         <footer class="footer">
             <div class="container">
                 <p class="text-muted footer-text">© Copyright 2017 Daniel Sullivan</p>
             </div>
         </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     </body>
+
 </html>
