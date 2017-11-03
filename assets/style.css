@@ -137,7 +137,7 @@ About Me/Contact/Portfolio */
     border: #cccccc solid 1px;
     padding: 20px;
     /* margin-bottom: 20px; */
-    /* overflow: auto; */
+    overflow: auto;
 }
 
 /* This class contains the styling for the title of the main-text-panel -
@@ -226,10 +226,10 @@ icons in the "Connect With Me" panel */
 "Connect With Me" panel - to center the three icons within the panel */
 
 .iconsdiv {
-    text-align: center;
-    width: 210px;
-    height: 100px;
-    margin: 0 auto;
+    /* text-align: center; */
+    width: 218px;
+    height: 60px;
+    /* margin: 0 auto; */
 }
 
 /* This class is applied to the About Me, Portfolio, and Contact links in the header */
@@ -283,9 +283,10 @@ left body panel on the Portfolio page */
 .imgcontainer {
     position: relative;
     text-align: center;
-    width: 290px;
-    height: 248px;
+    width: 250px;
+    height: 208px;
     float: left;
+    margin: 20px;
 }
 
 /* This class is applied to the div that holds the text that is superimposed over the
@@ -312,10 +313,11 @@ on the Contact page */
 }
 
 /* This class is applied to the <input> tags for the form on the Contact page,
-so that the fields span the full width of left body panel */
+so that the fields span the full width of left body panel and have a bottom margin */
 
-.fullwidth {
+.field-formatting {
     width: 100%;
+    margin-bottom: 18px;
 }
 
 /* This is styling for the "Submit" button on the Contact Me page */
